@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Bunnypro.SpaService.VueCli</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Albar</Authors>
+    <Company>Bunnypro</Company>
+    <PackageDescription>Vue Cli Service in Asp Net Core</PackageDescription>
+    <RepositoryUrl>https://github.com/albar/AspNetCore-VueCliService</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
