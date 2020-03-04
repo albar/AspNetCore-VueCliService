@@ -36,3 +36,4 @@ msbuild.wrn
 node_modules
 *.nupkg
 example
+**/nuget.config
