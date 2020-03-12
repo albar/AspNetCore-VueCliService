@@ -58,7 +58,7 @@ namespace Bunnypro.SpaService.VueCli
 
             var npmScriptRunner = new NpmScriptRunner(
                 sourcePath, npmScriptName, $"--port {portNumber} --host localhost", null);
-            // npmScriptRunner.AttachToLogger(logger);
+            npmScriptRunner.AttachToLogger(logger);
 
             using (var stdErrReader = new EventedStreamStringReader(npmScriptRunner.StdErr))
             {
